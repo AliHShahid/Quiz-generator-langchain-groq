@@ -1,10 +1,12 @@
-from langchain.output_parsers import PydanticOutputParser
+# from langchain.output_parsers import PydanticOutputParser
 from src.models.question_schemas import MCQQuestion,FillBlankQuestion
 from src.prompts.templates import mcq_prompt_template,fill_blank_prompt_template
 from src.llm.groq_client import get_groq_llm
 from src.config.settings import settings
 from src.common.logger import get_logger
 from src.common.custom_exception import CustomException
+# PRODUCTION STANDARD (v0.2+)
+from langchain_core.output_parsers import PydanticOutputParser
 
 
 class QuestionGenerator:

@@ -1,4 +1,5 @@
-from langchain.prompts import PromptTemplate
+# from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 mcq_prompt_template = PromptTemplate(
     template=(
