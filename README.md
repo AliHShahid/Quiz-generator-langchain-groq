@@ -39,7 +39,7 @@
 
 ## 🛠️ Technical Stack
 
-- **Backend:** Python 3.x
+- **Backend:** Python
 - **Infrastructure:** Docker (for isolated environment execution)
 - **Packaging:** Setuptools (for modular distribution)
 
